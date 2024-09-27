@@ -1,0 +1,10 @@
+services:
+  db:
+    image: mysql
+    environment:
+      MYSQL_DATABASE: learning_doctrine
+      MYSQL_USER: user
+      MYSQL_PASSWORD: password
+      MYSQL_ROOT_PASSWORD: your_root_password # Adicione esta linha
+    ports:
+      - "3306:3306"

@@ -1,0 +1,1 @@
+alias migrations="./vendor/bin/doctrine-migrations"
